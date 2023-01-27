@@ -26,17 +26,10 @@ public class Tester {
             boolean stat1 = b % 2 != 0;
             boolean stat2 = (b * (b+1)) % 3 == 0;
 
-            System.out.println("Statement1 && Statement2: " + (stat1 && stat2));
-
-            //2nd meth
+            System.out.println("Statement 1: " + stat1 +"\nStatement 2: " + stat2);
 
             System.out.println("Condition satisfied: " + (b % 2 != 0 && (b * (b+1)) % 3 == 0));
 
 
-
-
-
-
-
-    }
+        }
 }
